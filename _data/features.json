@@ -1,0 +1,29 @@
+[
+  {
+    "title": "IoT-Edge-Cloud",
+    "description": "Design of novel distributed systems across the Computing continuum.",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "High Parallel Computing",
+    "description": "Text for HPC.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Feature 3",
+    "description": "Text for feature 3.",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]

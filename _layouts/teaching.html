@@ -1,0 +1,133 @@
+---
+layout: default
+bodyClass: "page-teams"
+---
+
+
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+         
+        <div>
+          <div>
+            <h1>Available thesis</h1>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-5 col-lg-6 order-1 order-md-1">
+         
+          <h2 class="service-title">Bachelor thesis</h2>
+          
+          {% assign thesis = site.thesis | where: "master", false %}
+          {% for topic in thesis reversed %}
+          <div class="col-12 col-md-12 mb-2">
+            <div class="team team-summary team-summary-large" style="background-color: rgba(246, 237, 195, 0.5)">
+                <div class="team-meta">
+                    <h2 class="team-name"><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a></h2>
+                    <p class="team-description">Supervisor: {{ topic.supervisor }}</p>
+                </div>
+                <div class="team-content">{{ topic.short | truncate: 200 }}</div>
+            </div>
+          </div>
+          {% endfor %}
+      </div>
+
+      <div class="col-12 col-md-5 col-lg-6 order-2 order-md-2 position-relative">
+        <h2 class="service-title">Master thesis</h2>
+
+        {% assign thesis = site.thesis | where: "master", true %}
+        {% for topic in thesis reversed %}
+        <div class="col-12 col-md-12 mb-2">
+          <div class="team team-summary team-summary-large" style="background-color: rgba(166, 182, 255, 0.3)">
+              <div class="team-meta">
+                  <h2 class="team-name"><a href="{{ topic.url | relative_url }}" target="_blank">{{ topic.title }}</a></h2>
+                  <p class="team-description">Supervisor: {{ topic.supervisor }}</p>
+              </div>
+              <div class="team-content">{{ topic.short | truncate: 200 }}</div>
+          </div>
+        </div>
+        {% endfor %}
+        
+       </div>
+    </div>
+  </div>
+</div>
+
+
+<style>
+  .strip-grey {
+    position: relative;
+    background: url('{{site.url}}/images/illustrations/discord2.png') no-repeat center center;
+    background-size: cover;
+  }
+
+  .strip-grey::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6); /* Adjust transparency */
+    z-index: 1;
+  }
+
+  .strip-grey .container {
+    position: relative;
+    z-index: 2; /* Ensures text appears above background */
+  }
+</style>
+
+<!-- Add Font Awesome if not already included -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-12 col-lg-12 mb-2">
+        <div>
+          <h2 class="feature-title">Are you interested on any of these topics?</h2>
+          <div class="feature-content">Join our Discord group <a href="https://discord.gg/GDnrBsEtar" target="_blank">here</a> or contact us via email.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container pt-6">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-12 col-lg-6 order-2 order-md-1">
+        <h1 class="service-title"> {{ content }}</h1>
+      </div>
+      {% if page.intro_image %}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container pt-0 pb-0 pb-md-10">
+    <div class="row justify-content-start">
+      {% for course in site.courses %}
+      <div class="col-12 col-md-4 mb-1">
+        <div class="service service-summary">
+          <div class="service-content">
+            <h2 class="service-title">
+              {{ course.title }}
+            </h2>
+            <p>Instructor(s): {{course.instructors}}</p>
+            <p>{{ course.excerpt | markdownify | strip_html | truncate: 250 }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
