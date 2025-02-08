@@ -9,8 +9,5 @@ intro_image_hide_on_mobile: true
 
 # Open positions
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+Join our team and push the boundaries of discovery—where innovation meets impact.
 
-- Position 1
-- Position 2
-- Position 3

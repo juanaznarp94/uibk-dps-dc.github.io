@@ -48,6 +48,9 @@ collections:
   old_projects:
     output: true
     sort_by: weight
+  positions:
+    output: true
+    sort_by: weight
 
 
 defaults:
@@ -81,6 +84,16 @@ defaults:
       type: "news"
     values:
       layout: "new"
+  - scope:
+      path: ""
+      type: "positions"
+    values:
+      layout: "position"
+  - scope:
+      path: ""
+      type: "old_projects"
+    values:
+      layout: "old_project"
 
 
 sass:
