@@ -21,7 +21,6 @@ uibklogo:
   desktop_height: "40px"
   desktop_width: "95px"
 
-
 home: 
   limit_services: 6
 
@@ -51,7 +50,6 @@ collections:
   positions:
     output: true
     sort_by: weight
-
 
 defaults:
   - scope:
@@ -94,7 +92,11 @@ defaults:
       type: "old_projects"
     values:
       layout: "old_project"
-
+  - scope:
+      path: ""
+      type: "courses"
+    values:
+      layout: "course"
 
 sass:
   style: compressed # possible values: nested expanded compact compressed

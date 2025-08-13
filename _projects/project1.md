@@ -4,81 +4,31 @@ date: 2018-11-18T12:33:46+10:00
 weight: 1
 ---
 
-Financial accounting (or financial accountancy) is the field of accounting concerned with the **summary, analysis and reporting** of financial transactions related to a business.
 
-![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
+The **SPICE project** addresses the growing scale and complexity of the Cloud, which has led to the emergence of Edge and IoT computing within the "compute continuum" — an ecosystem crucial for applications relying on sensor data and time-critical, AI-assisted data processing. The aim is to enable intelligent decision-making and provide deeper insights across this continuum, while overcoming the numerous technical, operational, and organizational challenges in assembling and maintaining robust data pipelines.
+
+<img src="/images/projects/spice.png" alt="SPICE Data Pipelines" width="300"/>
 
 # Objectives
 
-Financial accounting and financial reporting are often used as synonyms.
+The SPICE project’s core mission is to **radically simplify** complex, distributed data processing and deliver a secure, trustworthy, and adaptable platform for **SMART data pipelines**.  
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is:
-2. To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.
-3. According to the European Accounting Association:
+Key objectives include:
+
+1. **AI-assisted composition** of smart data pipelines for streamlined and automated configuration of complex workflows.  
+2. **Optimized execution environments and resource management** to enable secure, smart, and efficient data processing across IoT–Edge–Cloud.  
+3. **Secure and trustworthy design** ensuring quality, performance, and dependability in data analytics.  
+4. Establishing an **innovation transformation incubator** to foster adoption and exploitation of the project’s outcomes.  
 
 ## Relevance
 
-Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance.
+Data pipelines are the backbone of intelligent data processing in the compute continuum. They systematically ingest, move, process, and analyze vast volumes of data from **heterogeneous and widely dispersed sources**, leveraging both compute and storage capabilities across IoT, Edge, and Cloud environments.
 
-> The ingredients of relevance are the predictive value and confirmatory value.
+> The project aims to deliver a **human-centric, trustworthy, energy-aware, and fair AI system** for distributed industrial and scientific decision-making.
 
-Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements.
+The SPICE platform will provide:
+- A **semantically enriched, platform-agnostic, and secured data pipeline composition and execution environment**.  
+- **Automatic resource management** tailored to performance and quality demands.  
+- Compatibility with European initiatives such as the **European Open Science Cloud (EOSC)** and **European common data spaces**.  
 
-## Faithful Representation
-
-Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error.
-
-## Enhancing Qualitative Characteristics
-
-### Verifiability
-
-Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity.
-
-### Comparability
-
-Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity.
-
-### Understandability
-
-Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant.
-Timeliness: Timeliness implies that financial information must be presented to the users before a decision is to be made.
-
----
-
-## Statement of cash flows
-
-The statement of cash flows considers the inputs and outputs in concrete cash within a stated period. The general template of a cash flow statement is as follows: Cash Inflow - Cash Outflow + Opening Balance = Closing Balance
-
-| Cash Inflow | Outflow   | Opening Balance |
-| ----------- | --------- | --------------- |
-| _Monday_    | `Tuesday` | **Wednesday**   |
-| 1           | 2         | 3               |
-
-**Example 1:** in the beginning of September, Ellen started out with $5 in her bank account. During that same month, Ellen borrowed $20 from Tom. At the end of the month, Ellen bought a pair of shoes for $7. Ellen's cash flow statement for the month of September looks like this:
-
-- Cash inflow: $20
-- Cash outflow:$7
-- Opening balance: $5
-- Closing balance: $20 – $7 + $5 = $18
-
-**Example 2:** in the beginning of June, WikiTables, a company that buys and resells tables, sold 2 tables. They'd originally bought the tables for $25 each, and sold them at a price of $50 per table. The first table was paid out in cash however the second one was bought in credit terms. WikiTables' cash flow statement for the month of June looks like this:
-
-> **Important:** the cash flow statement only considers the exchange of actual cash, and ignores what the person in question owes or is owed.
-
-## Statement of financial position (balance sheet)
-
-The balance sheet is the financial statement showing a firm's assets, liabilities and equity (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement.
-
-- **fixed assets**
-  - property
-  - building
-  - equipment (such as factory machinery)
-- **intangible assets**
-  - copyrights
-  - trademarks
-  - patents
-    - pending
-    - international
-- goodwill
-
-Owner's equity, sometimes referred to as net assets, is represented differently depending on the type of business ownership. Business ownership can be in the form of a sole proprietorship, partnership, or a corporation. For a corporation, the owner's equity portion usually shows common stock, and retained earnings (earnings kept in the company). Retained earnings come from the retained earnings statement, prepared prior to the balance sheet.
+By addressing scalability, adaptability, and trustworthiness, SPICE will remove barriers to widespread adoption of advanced data pipelines and set a new standard for distributed AI-driven data processing.

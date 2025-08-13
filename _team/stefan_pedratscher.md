@@ -5,13 +5,13 @@ jobtitle: "Ph.D. student"
 linkedinurl: "https://www.linkedin.com/"
 weight: 4
 admin: false
+image: "images/team/stefan.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Stefan Pedratscher received his M.Sc. in Computer Science from the University of Innsbruck in 2021. He is a Ph.D. student in the Distributed and Parallel Systems Group at the University of Innsbruck, Austria, and his main research interests include serverless computing , optimization and stream processing in the Edge-Cloud continuum.
 
 | ----------------  | --------- | 
-| Room              | 3W01      | 
+| Room              | 3M05      | 
 | Office hours      | To be arranged |
-| Email             | [thomas.fahringer@uibk.ac.at](mailto:thomas.fahringer@uibk.ac.at)| 
+| Email             | [stefan.pedratscher@uibk.ac.at](mailto:stefan.pedratscher@uibk.ac.at)| 
+| [Google Scholar](https://scholar.google.com/citations?user=yN7abS0AAAAJ&hl=en), [ORCID](https://orcid.org/0000-0002-6164-880X) | 

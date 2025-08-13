@@ -25,7 +25,6 @@ bodyClass: "page-teams"
                                 <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
                                 {% endif %}
                             </div>
-                            <div class="team-content">{{ team.excerpt | truncate: 120 }}</div>
                         </div>
                     </div>
                     {% endfor %}
@@ -33,7 +32,7 @@ bodyClass: "page-teams"
                 <div class="row pt-6 pb-6">
                     {% assign teams = site.team | where: "promoted", empty | where: "admin", false | sort: "weight" %}
                     {% for team in teams %}
-                    <div class="col-12 col-md-4 mb-3">
+                    <div class="col-12 col-md-6 mb-3">
                         <div class="team team-summary">
                             {% if team.image %}
                             <div class="team-image">
@@ -53,7 +52,7 @@ bodyClass: "page-teams"
                 <div class="row">
                     {% assign teams = site.team | where: "promoted", empty | where: "admin", true | sort: "weight" %}
                     {% for team in teams %}
-                    <div class="col-12 col-md-4 mb-3">
+                    <div class="col-12 col-md-6 mb-3">
                         <div class="team team-summary">
                             {% if team.image %}
                             <div class="team-image">

@@ -2,16 +2,17 @@
 title: "Dr. Philipp Gschwandtner"
 date: 2018-11-19T10:47:58+10:00
 jobtitle: "Senior Scientist"
-linkedinurl: "https://www.linkedin.com/"
+linkedinurl: "https://www.linkedin.com/in/philippgschwandtner/"
 weight: 1
 admin: false
+image: "images/team/philipp.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Philipp is head of the [Research Center HPC](https://www.uibk.ac.at/en/fz-hpc/). He received his PhD in 2017, focusing on performance and energy analysis and optimization of parallel programs. His main interests lie in research and training in high performance computing and scientific computing, including adjacent topics such as programming model design, runtime systems, or compiler research.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-| ----------------  | --------- | 
-| Room              | 3W01      | 
-| Office hours      | To be arranged |
-| Email             | [thomas.fahringer@uibk.ac.at](mailto:thomas.fahringer@uibk.ac.at)| 
+| ----------------- | ------------------------------------------------------------------------- |
+| Room              | 2W05                                                                      |
+| Office hours      | To be arranged                                                            |
+| Email             | [philipp.gschwandtner@uibk.ac.at](mailto:philipp.gschwandtner@uibk.ac.at) |
+| Phone             | +43 512 507 53233                                                         |
+| [Google Scholar](https://scholar.google.com/citations?hl=en&user=pxhUnlgAAAAJ), [ORCID](https://orcid.org/0000-0002-7774-0344) | 

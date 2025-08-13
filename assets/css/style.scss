@@ -75,6 +75,24 @@ h1 {
   }
 }
 
+/* Global H1 Styling */
+h2 {
+  font-size: 1.5rem; /* Large and readable */
+  font-weight: 700; /* Bold for emphasis */
+  color: #333; /* Dark gray for good contrast */
+  text-align: center; /* Centered by default */
+  margin-bottom: 1rem; /* Spacing below */
+  line-height: 1.2; /* Better readability */
+}
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+  h2 {
+      font-size: 2rem; /* Bigger for larger screens */
+      text-align: left; /* Align left on desktops */
+  }
+}
+
 
 a#download {
   display: block;

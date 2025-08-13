@@ -1,12 +1,34 @@
 ---
-title: "Bachelor topic 1"
-supervisor: "Thomas Fahringer"
+title: "Extension of a Novel Programming Language for the Cloud-Edge-IoT Continuum"
+supervisor: "Juan Aznar Poveda, Marlon Etheredge"
 weight: 1
-desired_skills: "Java, Python"
+desired_skills: "Cloud Computing, Visual Programming, Java"
+short: "Extending a novel programming model for the Cloud-Edge-IoT continuum with enhanced developer tools and applications."
+number_of_students: "1–2 (2 preferred)"
+language: "English"
 master: false
-short: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This project focuses on extending a novel programming model for the Cloud-Edge-IoT continuum. Students will develop and research tools to simplify application development and explore multiple aspects of the programming model.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Tasks
+- **Visual Programming Languages:** Provide a visual counterpart to the existing programming language.  
+- **Validation/Verification:** Validate and verify applications written in the language.  
+- **Live Visualization and Performance Analysis:** Analyze the performance of deployed applications in real time.  
+- **Application Development and Comparison:** Develop novel use cases/applications using the programming model and compare them against other well-known programming models.  
+
+### Required Skills
+
+**Theoretical Skills:**  
+- Cloud Computing  
+- Visual Programming Languages  
+- Validation/Verification  
+
+**Practical Skills:**  
+- Java Programming  
+- General Software Development Skills  
+
+### Additional Information
+- The project scope can encompass multiple topics.  
+- Preferably two students work together on the project.  
+- Inspiration can be derived from NodeRED, Simulink, and Ballerina.

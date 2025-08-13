@@ -5,13 +5,14 @@ jobtitle: "Postdoctoral Univ. Assistant"
 linkedinurl: "https://www.linkedin.com/"
 weight: 2
 admin: false
+image: "images/team/juan.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Juan received his Ph.D. degree in Telecommunications Engineering from the Technical University of Cartagena, Spain, in 2022. He was awarded the prize “Liberalization of Telecommunications” (national level) for the best B.Sc. thesis in 2016. He is currently a postdoctoral researcher at the Distributed and Parallel Systems group of the University of Innsbruck, Austria. His research interests include Distributed Systems, Distributed Storages, Distributed Machine learning, Cyber-Physical Systems (CPS), Internet of Things, and Wireless networks and communications.
 
 | ----------------  | --------- | 
-| Room              | 3W01      | 
+| Room              | 3M04      | 
 | Office hours      | To be arranged |
-| Email             | [thomas.fahringer@uibk.ac.at](mailto:thomas.fahringer@uibk.ac.at)| 
+| Email             | [juan.aznar-poveda@uibk.ac.at](mailto:juan.aznar-poveda@uibk.ac.at)| 
+| Phone             | +43 512 507 53361 | 
+| [Google Scholar](https://scholar.google.com/citations?user=WI4odrUAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0002-0879-6651) | 

@@ -9,12 +9,12 @@ weight: 1
 admin: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Univ.-Prof. Dr. Thomas Fahringer received his Ph.D. degree from the Vienna University of Technology in 1993. Since 2003, he has been a full professor of Computer Science at the Institute of Computer Science, University of Innsbruck, Austria. His main research interests include software architectures, programming paradigms, compiler technology, performance analysis, and prediction for parallel and distributed systems.
 
 | ----------------  | --------- | 
-| Room              | 3W01      | 
+| Room              | 3M06      | 
 | Office hours      | To be arranged |
-| Email             | [thomas.fahringer@uibk.ac.at](mailto:thomas.fahringer@uibk.ac.at)| 
+| Email             | [thomas.fahringer@uibk.ac.at](mailto:thomas.fahringer@uibk.ac.at)|
+| Phone | +43 512 507 53204 |
+| [Google Scholar](https://scholar.google.com/citations?user=ZXg8fYAAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0003-4293-1228) | 
  

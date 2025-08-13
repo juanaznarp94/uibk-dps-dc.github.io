@@ -9,15 +9,11 @@ bodyClass: "page-services"
     <div class="row justify-content-start w-100">
       <div class="col-12 col-md-12 mb-12">
         <h1>Latest publications</h1>
-        {% for publication in site.publications reversed %}
+        {% for publication in site.publications limit:20 %}
             <span>
               <a href={{publication.link}} target="_blank">
                 <div class="publication-summary d-flex align-items-center">
-                {% if publication.field == "cloud" %}
-                <span class="badge custom-badge-iot">IoT-Edge-Cloud</span>
-                {% elsif publication.field == "hpc" %}
-                <span class="badge custom-badge-hpc">HPC</span>
-                {% endif %}
+                <span class="badge custom-badge-iot">{{publication.year}}</span>
                 <p class="ms-3">{{publication.title | markdownify | strip_html | truncate: 500}}</p>
                 </div>
             </a>
@@ -59,15 +55,11 @@ bodyClass: "page-services"
   </div>
 </div>
 
-
-
-
-
 <div class="strip">
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-          <h1>Previous research projects</h1>
+          <h1>Previous research projects (To be added soon)</h1>
       </div>
     </div>
   </div>
